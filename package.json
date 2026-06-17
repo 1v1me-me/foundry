@@ -1,0 +1,8 @@
+{
+  "name": "@1v1meme/foundry",
+  "version": "0.0.1",
+  "scripts": {
+    "compile": "forge compile",
+    "test": "forge test"
+  }
+}

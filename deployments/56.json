@@ -1,0 +1,7 @@
+{
+  "0x2235519578c9eFfBe52C824Fe6fCe428BD5AC1d3": "MatchEngine",
+  "0x22ca8Bc2C6dDC31Fe76da6A0d587a9C41ebc849C": "FighterVault",
+  "0x5b3BA297a60685844Fe673c134651d7DCF1A74b6": "TournamentManager",
+  "0xeB9bcAA5ac0B9c890862a00a0d482b1fcf15CEC1": "ContractBeacon",
+  "networkName": "bsc"
+}
