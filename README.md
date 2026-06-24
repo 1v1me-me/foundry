@@ -28,7 +28,7 @@ Smart contracts for [1v1me.me](https://1v1me.me) — 1v1me.me runs 24/7 eliminat
 
 - **Permissionless on-chain resolution.** No oracle, no admin intervention, no off-chain computation. Any participant can trigger `determineResult` once a round window closes. Winner determination is pure on-chain arithmetic: compare trailing vault values, transfer assets, advance the bracket.
 
-- **O(1) Feistel bracket seeding.** Bracket positions are derived on-demand via a 4-round Feistel cipher seeded by `prevrandao`, eliminating the need to store permutation arrays. Supports up to 1,024 entrants with zero storage overhead and verifiable fairness.
+- **O(1) Feistel bracket seeding.** Bracket positions are derived on-demand via a 4-round Feistel cipher seeded by `prevrandao`, eliminating the need to store permutation arrays. Supports up to 32,768 entrants with no storage overhead and verifiable fairness.
 
 - **Vault-native share accounting.** Each fighter is a minimal vault with linear share pricing (`totalAssets / totalShares`). No BEP-20 token overhead, no bonding curve complexity. Straightforward conversion arithmetic with predictable pricing at any scale.
 
